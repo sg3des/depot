@@ -1,13 +1,14 @@
 package main
 
 import (
+	"./packets/cookie"
 	"fmt"
 	"html/template"
 	"io/ioutil"
 	"net/http"
 	"os"
-	"strings"
-	"time"
+
+	"github.com/julienschmidt/httprouter"
 )
 
 var (
@@ -19,51 +20,65 @@ var (
 
 	Templates = template.Must(template.ParseGlob("." + dtmpls + "*"))
 
-	err error
+	Users = make(map[string]tUsers)
+	err   error
 )
+
+type tUsers struct {
+	User string
+	Pass string
+}
 
 func main() {
 	fmt.Println("start")
 
-	mux := http.NewServeMux()
-	mux.Handle(dassts, http.StripPrefix(dassts, http.FileServer(http.Dir("."+dassts))))
-	mux.Handle(dimgs, http.StripPrefix(dimgs, http.FileServer(http.Dir("."+dimgs))))
-	mux.HandleFunc("/", index)
-	mux.HandleFunc(dusers, user)
-	err = http.ListenAndServe(":8081", mux)
+	router := httprouter.New()
+
+	router.GET("/", Index)
+	router.POST("/auth/", Auth)
+	router.GET("/open/:file", Open)
+
+	router.ServeFiles(dassts+"*filepath", http.Dir("."+dassts))
+	router.ServeFiles(dimgs+"*filepath", http.Dir("."+dimgs))
+
+	err = http.ListenAndServe(":8080", router)
 	checkerr(err)
 
 	fmt.Println("end")
 }
 
-func index(w http.ResponseWriter, r *http.Request) {
-	fmt.Println("index")
-	err = Templates.ExecuteTemplate(w, "index", nil)
-	checkerr(err)
-}
-
-type tmplUser struct {
-	List []string
-}
-
-func user(w http.ResponseWriter, r *http.Request) {
-	err := r.ParseForm()
-	if err != nil {
-		w.Write([]byte(err.Error()))
+func Index(w http.ResponseWriter, r *http.Request, _ httprouter.Params) {
+	hash := cookie.Get(r, "hash")
+	u, b := Users[hash]
+	if len(hash) == 0 || !b {
+		err = Templates.ExecuteTemplate(w, "index", nil)
+		checkerr(err)
 		return
 	}
 
+	list := []string{}
+	files, err := ioutil.ReadDir("." + dusers + u.User)
+	for i := 0; i < len(files); i++ {
+		if files[i].Name() == "test.enc" {
+			continue
+		}
+		list = append(list, files[i].Name())
+	}
+
+	err = Templates.ExecuteTemplate(w, "user", map[string][]string{"List": list})
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+
+}
+
+func Auth(w http.ResponseWriter, r *http.Request, _ httprouter.Params) {
+
+	r.ParseForm()
+
 	user := r.PostForm.Get("user")
 	pass := r.PostForm.Get("pass")
-
-	if len(user) == 0 {
-		if c, err := r.Cookie("user"); err == nil {
-			user = c.Value
-		}
-		if c, err := r.Cookie("pass"); err == nil {
-			pass = c.Value
-		}
-	}
 
 	err = permisions(user, pass)
 	if err != nil {
@@ -71,38 +86,24 @@ func user(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	expiration := time.Now().Add(time.Hour)
-	cookie := http.Cookie{Name: "user", Value: user, Expires: expiration}
-	http.SetCookie(w, &cookie)
+	hash := randString(32)
+	Users[hash] = tUsers{user, pass}
+	cookie.Set(w, "hash", hash)
+	http.Redirect(w, r, "/", http.StatusFound)
+	// Index(w, r, nil)
+}
 
-	cookie = http.Cookie{Name: "pass", Value: pass, Expires: expiration}
-	http.SetCookie(w, &cookie)
-
-	file := strings.Replace(r.URL.String(), dusers, "", 1)
-	if len(file) == 0 {
-		list := []string{}
-		files, err := ioutil.ReadDir("." + dusers + user)
-		for i := 0; i < len(files); i++ {
-			if files[i].Name() == "test.enc" {
-				continue
-			}
-			list = append(list, files[i].Name())
-		}
-
-		var data = &tmplUser{list}
-		err = Templates.ExecuteTemplate(w, "user", data)
-		if err != nil {
-			http.Error(w, err.Error(), http.StatusInternalServerError)
-			return
-		}
-	} else {
-		datadecrypt, err := readFile(user, pass, file)
-		if err != nil {
-			w.Write([]byte(err.Error()))
-			return
-		}
-		w.Write(datadecrypt)
+func Open(w http.ResponseWriter, r *http.Request, ps httprouter.Params) {
+	var hash string
+	if c, err := r.Cookie("hash"); err == nil {
+		hash = c.Value
 	}
+	datadecrypt, err := readFile(Users[hash].User, Users[hash].Pass, ps.ByName("file"))
+	if err != nil {
+		w.Write([]byte(err.Error()))
+		return
+	}
+	w.Write(datadecrypt)
 }
 
 func readFile(user, pass string, file string) (datadecrypt []byte, err error) {

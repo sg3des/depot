@@ -7,6 +7,11 @@ import (
 	"encoding/base64"
 	"fmt"
 	"io"
+	mrand "math/rand"
+)
+
+var (
+	letters = []rune("0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
 )
 
 func encrypt(key []byte, data []byte) (enc []byte, err error) {
@@ -51,4 +56,12 @@ func decrypt(key []byte, data []byte) (dec []byte, err error) {
 	dec = []byte(ciphertext)
 	// dec = fmt.Sprintf("%s", ciphertext)
 	return
+}
+
+func randString(n int) string {
+	b := make([]rune, n)
+	for i := range b {
+		b[i] = letters[mrand.Intn(len(letters))]
+	}
+	return string(b)
 }
