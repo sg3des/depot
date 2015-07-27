@@ -1,0 +1,9 @@
+{{define "index"}}
+{{template "header"}}
+	<div>hello</div>
+	<form method="post" action="/users/">
+		<input name="user">
+		<input name="pass" type="password">
+		<input type="submit">
+	</form>
+{{end}}

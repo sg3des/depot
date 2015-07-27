@@ -1,0 +1,9 @@
+{{define "user"}}
+{{template "header"}}
+	<div>user</div>
+	<ul>
+		{{range .List}}
+			<li><a href="{{.}}">{{.}}</a></li>
+		{{end}}
+	</ul>
+{{end}}
