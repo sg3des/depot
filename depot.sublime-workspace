@@ -1,0 +1,1276 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"getAttribute"
+			],
+			[
+				"ti",
+				"ticket3"
+			],
+			[
+				"tick",
+				"ticket3"
+			],
+			[
+				"mt",
+				"mt_rand"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"in",
+				"innerHTML"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"sel",
+				"selectText"
+			],
+			[
+				"div",
+				"divcopy"
+			],
+			[
+				"sele",
+				"selectMark"
+			],
+			[
+				"Sele",
+				"selectR"
+			],
+			[
+				"s",
+				"spreadsheet"
+			],
+			[
+				"select",
+				"selected"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"out",
+				"outline-offset"
+			],
+			[
+				"on",
+				"ondblclick	Attr"
+			],
+			[
+				"m",
+				"Month	time.Month ƒ"
+			],
+			[
+				"da",
+				"Day	int ƒ"
+			],
+			[
+				"S",
+				"String	string ƒ"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"ctr",
+				"ctrlKey"
+			],
+			[
+				"cont",
+				"controller	func() ν"
+			],
+			[
+				"c",
+				"controllers	 package ρ"
+			],
+			[
+				"M",
+				"MethodByName	reflect.Value ƒ"
+			],
+			[
+				"V",
+				"ValueOf	reflect.Value ƒ"
+			],
+			[
+				"u",
+				"User	struct ʈ"
+			],
+			[
+				"Me",
+				"MethodByName	reflect.Value ƒ"
+			],
+			[
+				"U",
+				"tUser	struct ʈ"
+			],
+			[
+				"file",
+				"files	[]os.FileInfo ν"
+			],
+			[
+				"g",
+				"Get	string ƒ"
+			],
+			[
+				"string",
+				"strings	 package ρ"
+			],
+			[
+				"pr",
+				"Println	n int, err error ƒ"
+			],
+			[
+				"R",
+				"ReadAll	[]byte, error ƒ"
+			],
+			[
+				"v",
+				"ValueOf	reflect.Value ƒ"
+			],
+			[
+				"Post",
+				"PostForm	url.Values ν"
+			],
+			[
+				"border-b",
+				"border-box"
+			],
+			[
+				"box-",
+				"box-sizing"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"f",
+				"FormFile	multipart.File, *multipart.FileHeader, error ƒ"
+			],
+			[
+				"StatusFo",
+				"StatusFound	 Ɩ"
+			],
+			[
+				"er",
+				"ErrNoCookie	error ν"
+			],
+			[
+				"erf",
+				"ErrMissingFile	error ν"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"fil",
+				"files"
+			],
+			[
+				"P",
+				"POST	 ƒ"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"border-col",
+				"border-collapse"
+			],
+			[
+				"border-",
+				"border-spacing"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"Par",
+				"PathSeparator	 Ɩ"
+			],
+			[
+				"d",
+				"dusers	 ν"
+			],
+			[
+				"Re",
+				"ReadFile	[]byte, error ƒ"
+			],
+			[
+				"co",
+				"Cookie	struct ʈ"
+			],
+			[
+				"data",
+				"datadecrypt	[]byte ν"
+			],
+			[
+				"D",
+				"DecodeString	[]byte, error ƒ"
+			],
+			[
+				"E",
+				"EncodeToString	string ƒ"
+			],
+			[
+				"New",
+				"NewEncoder	io.WriteCloser ƒ"
+			],
+			[
+				"ci",
+				"ciphertext	[]byte ν"
+			],
+			[
+				"F",
+				"Fprintln	n int, err error ƒ"
+			],
+			[
+				"te",
+				"templates	 ν"
+			],
+			[
+				"Pr",
+				"Println	n int, err error ƒ"
+			],
+			[
+				"Ex",
+				"ExecuteTemplate	error ƒ"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "depot.go",
+			"settings":
+			{
+				"buffer_size": 2678,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "controllers/document.go",
+			"settings":
+			{
+				"buffer_size": 881,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "controllers/spreadsheet.go",
+			"settings":
+			{
+				"buffer_size": 2088,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "controllers/controllers.go",
+			"settings":
+			{
+				"buffer_size": 1174,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/srv/http/test/test.php",
+			"settings":
+			{
+				"buffer_size": 941,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "packets/alphabet/alphabet.go",
+			"settings":
+			{
+				"buffer_size": 238,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/document.ghtml",
+			"settings":
+			{
+				"buffer_size": 343,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/header.ghtml",
+			"settings":
+			{
+				"buffer_size": 341,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/index.ghtml",
+			"settings":
+			{
+				"buffer_size": 190,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/list-toolbar.ghtml",
+			"settings":
+			{
+				"buffer_size": 285,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/list.ghtml",
+			"settings":
+			{
+				"buffer_size": 340,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/open-toolbar.ghtml",
+			"settings":
+			{
+				"buffer_size": 181,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/spreadsheet.ghtml",
+			"settings":
+			{
+				"buffer_size": 1274,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/drag.js",
+			"settings":
+			{
+				"buffer_size": 3956,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/index.css",
+			"settings":
+			{
+				"buffer_size": 3359,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/index.js",
+			"settings":
+			{
+				"buffer_size": 3967,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/lib.js",
+			"settings":
+			{
+				"buffer_size": 9416,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/upload.js",
+			"settings":
+			{
+				"buffer_size": 4526,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 314.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 408.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/home/turtle/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/turtle/.config/sublime-text-3/Packages/CodeFormatter/CodeFormatter.sublime-settings",
+		"/srv/go/.lib/src/depot/assets/index.js",
+		"/srv/go/.lib/src/depot/packets/cookie/cookie.go",
+		"/srv/go/.lib/src/depot/templates/document.ghtml",
+		"/srv/go/.lib/src/depot/templates/spreadsheet.ghtml",
+		"/srv/go/.lib/src/depot/templates/list.ghtml",
+		"/srv/go/.lib/src/depot/templates/list-toolbar.ghtml",
+		"/srv/go/.lib/src/depot/templates/index.ghtml",
+		"/srv/go/.lib/src/depot/templates/header.ghtml",
+		"/srv/go/.lib/src/depot/controllers/document.go",
+		"/srv/go/.lib/src/depot/controllers/spreadsheet.go",
+		"/srv/go/.lib/src/depot/controllers/controllers.go",
+		"/srv/go/.lib/src/depot/depot.go",
+		"/srv/go/.lib/src/depot/packets/user/user.go",
+		"/srv/go/.lib/src/depot/packets/crypt/crypt.go",
+		"/srv/go/.lib/src/depot/templates/open-toolbar.ghtml",
+		"/srv/go/.lib/src/depot/assets/index.css",
+		"/usr/share/themes/4dyne-my/gtk-2.0/gtkrc",
+		"/srv/go/.lib/src/depot/templates/text.ghtml",
+		"/srv/go/depot/users/sg3des/file.txt",
+		"/srv/go/depot/upload.txt",
+		"/home/turtle/.config/sublime-text-3/Packages/User/CommandForExtension.sublime-settings",
+		"/home/turtle/.config/sublime-text-3/Packages/CSS3/CSS3.sublime-settings",
+		"/home/turtle/.config/sublime-text-3/Packages/User/HTMLBeautify.sublime-settings",
+		"/home/turtle/.config/sublime-text-3/Packages/HTMLBeautify/HTMLBeautify.sublime-settings",
+		"/home/turtle/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/media/8A981AA4981A8F371/config2/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/turtle/.config/sublime-text-3/Packages/GoSublime/GoSublime.sublime-settings",
+		"/home/turtle/.fonts.conf",
+		"/home/turtle/Downloads/download",
+		"/srv/go/depot/users/sg3des/files/file.txt",
+		"/home/turtle/.config/sublime-text-3/Packages/GoSublime/CHANGELOG.md",
+		"/home/turtle/.config/sublime-text-3/Packages/GoSublime/USAGE.md",
+		"/home/turtle/.config/sublime-text-3/Packages/User/GoSublime.sublime-settings",
+		"/etc/fonts/fonts.conf",
+		"/etc/fonts/conf.avail/90-synthetic.conf",
+		"/etc/fonts/conf.avail/10-autohint.conf",
+		"/etc/fonts/fonts.dtd",
+		"/home/turtle/.config/bspwm/bspwmrc",
+		"/srv/C++/mywm/hello.c",
+		"/usr/include/xcb/xcb.h",
+		"/home/turtle/.config/_sublime-text-3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"c",
+			"map",
+			":",
+			",",
+			"\",",
+			"\\d,",
+			"td",
+			");}\n",
+			"}\n",
+			"tuser",
+			"dusers",
+			"dtmpls",
+			"\"))\n",
+			"dec",
+			"encr",
+			"user",
+			"tUsers",
+			"return",
+			"n",
+			"margo"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			":\"",
+			"\",",
+			"$1:,",
+			"tUser"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "depot.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2678,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								97,
+								97
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"tabs_extra_last_activated": 1439905869.34,
+							"tabs_extra_last_activated_sheet_index": 0,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "controllers/document.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 881,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"tabs_extra_last_activated": 1439905782.77,
+							"tabs_extra_last_activated_sheet_index": 1,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "controllers/spreadsheet.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2088,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								967,
+								967
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"tabs_extra_last_activated": 1439322506.74,
+							"tabs_extra_last_activated_sheet_index": 2,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 99.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "controllers/controllers.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1174,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1174,
+								1174
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"tabs_extra_last_activated": 1439727416.18,
+							"tabs_extra_last_activated_sheet_index": 3,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/srv/http/test/test.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 941,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								777,
+								777
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tabs_extra_last_activated": 1439727328.32,
+							"tabs_extra_last_activated_sheet_index": 4,
+							"tabs_extra_moving":
+							[
+								2,
+								0
+							],
+							"tabs_extra_spawned": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "packets/alphabet/alphabet.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 238,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								238,
+								238
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"tabs_extra_last_activated": 1439322393.79,
+							"tabs_extra_last_activated_sheet_index": 0,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "templates/document.ghtml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 343,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22,
+								22
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-HTML.tmLanguage",
+							"tabs_extra_last_activated": 1439734648.4,
+							"tabs_extra_last_activated_sheet_index": 0,
+							"tabs_extra_spawned": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "templates/header.ghtml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 341,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20,
+								20
+							]
+						],
+						"settings":
+						{
+							"gutter": false,
+							"syntax": "Packages/GoSublime/syntax/GoSublime-HTML.tmLanguage",
+							"tabs_extra_last_activated": 1439905769.45,
+							"tabs_extra_last_activated_sheet_index": 1,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "templates/index.ghtml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 190,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-HTML.tmLanguage",
+							"tabs_extra_last_activated": 1439905839.38,
+							"tabs_extra_last_activated_sheet_index": 2,
+							"tabs_extra_spawned": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "templates/list-toolbar.ghtml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 285,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-HTML.tmLanguage",
+							"tabs_extra_last_activated": 1439734659.38,
+							"tabs_extra_last_activated_sheet_index": 3,
+							"tabs_extra_spawned": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "templates/list.ghtml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 340,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18,
+								18
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-HTML.tmLanguage",
+							"tabs_extra_last_activated": 1439734658.47,
+							"tabs_extra_last_activated_sheet_index": 4,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "templates/open-toolbar.ghtml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 181,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-HTML.tmLanguage",
+							"tabs_extra_last_activated": 1439734649.21,
+							"tabs_extra_last_activated_sheet_index": 5,
+							"tabs_extra_spawned": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "templates/spreadsheet.ghtml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1274,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								252,
+								252
+							]
+						],
+						"settings":
+						{
+							"gutter": false,
+							"syntax": "Packages/GoSublime/syntax/GoSublime-HTML.tmLanguage",
+							"tabs_extra_last_activated": 1439734556.7,
+							"tabs_extra_last_activated_sheet_index": 6,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 13,
+					"file": "assets/drag.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3956,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tabs_extra_last_activated": 1439322110.94,
+							"tabs_extra_last_activated_sheet_index": 0,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "assets/index.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3359,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2043,
+								2043
+							]
+						],
+						"settings":
+						{
+							"gutter": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tabs_extra_last_activated": 1439732195.44,
+							"tabs_extra_last_activated_sheet_index": 1,
+							"tabs_extra_spawned": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 348.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "assets/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3967,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								990,
+								990
+							]
+						],
+						"settings":
+						{
+							"gutter": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tabs_extra_last_activated": 1439734556.39,
+							"tabs_extra_last_activated_sheet_index": 2,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "assets/lib.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9416,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9386,
+								9386
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tabs_extra_last_activated": 1439731563.28,
+							"tabs_extra_last_activated_sheet_index": 3,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2769.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "assets/upload.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4526,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tabs_extra_last_activated": 1439731537.96,
+							"tabs_extra_last_activated_sheet_index": 4,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 19.0
+	},
+	"input":
+	{
+		"height": 24.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.529580152672,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.9o:///srv/go/depot":
+	{
+		"height": 71.0
+	},
+	"output.MarGo-output":
+	{
+		"height": 71.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "depot.sublime-project",
+	"replace":
+	{
+		"height": 57.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 120.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

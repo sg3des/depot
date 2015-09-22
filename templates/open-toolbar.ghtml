@@ -1,0 +1,6 @@
+{{define "open-toolbar"}}
+	<div class="toolbar z1">
+		<div class="btn" onclick="toolbar.save('{{.}}',datafield)">Save</div>
+	</div>
+	<div class="message" id="message"></div>
+{{end}}

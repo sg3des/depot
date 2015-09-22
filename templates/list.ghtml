@@ -1,0 +1,15 @@
+{{define "list"}}
+{{template "header"}}
+	{{template "list-toolbar"}}
+	<table class="list">
+		{{range $file := .List}}
+			<tr>
+			<td><img src="/imgs/{{$file.Type}}.png"></td>
+			<td><a href="/{{$file.Type}}/{{$file.File}}">{{$file.File}}</a></td>
+			<td>{{$file.Size}}kb</td>
+			<td>{{$file.Date}}</td>
+			</tr>
+		{{end}}
+	</table>
+
+{{end}}

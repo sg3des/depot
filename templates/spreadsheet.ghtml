@@ -1,0 +1,39 @@
+{{define "spreadsheet"}}
+	{{template "header"}}
+	<div id="top">
+		{{template "open-toolbar" "spreadsheet"}}
+		<h3>{{.Filename}}</h3>
+	</div>
+	<form id="datafield" name="spreadsheet" action="/spreadsheet/{{.Filename}}"  method="post">
+		<input type="hidden" name="filename" value="{{.Filename}}">
+		<table id="spreadsheet">
+			{{$row := index .Data 0}}
+			<tr>
+				<th></th>
+				{{range $c,$value := $row}}
+					<th cell="{{$c}}">{{index $.Alphabet $c}}</th>
+				{{end}}
+				<th cell="{{len $row}}"><i class="fa fa-plus" onclick="spreadsheet.addCol(this)"></i></th>
+			</tr>
+			
+			{{$Data := index .Data}}
+			{{range $r,$row := $Data}}
+				<tr>
+					<td>{{$r}}</td>
+					{{range $c,$value := $row}}
+						<td ondblclick="spreadsheet.edit(this)" onblur="spreadsheet.blur(this)" contenteditable="false" onclick="spreadsheet.focus(this)" onmousedown="spreadsheet.selectStart(this)" onmouseup="spreadsheet.selectEnd(this)" row="{{$r}}" cell="{{$c}}">{{$value}}</td>
+					{{end}}
+					<td></td>
+				</tr>
+			{{end}}
+			<tr>
+				<td><i class="fa fa-plus" onclick="spreadsheet.addCol(this)"></i></td>
+				{{range $c,$value := $row}}
+					<td cell="{{$c}}"></td>
+				{{end}}
+				<td cell="{{len $row}}"></td>
+			</tr>
+		</table>
+	</form>
+	<textarea id='copyarea'></textarea>
+{{end}}

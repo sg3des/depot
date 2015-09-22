@@ -1,0 +1,11 @@
+{{define "document"}}
+{{template "header"}}
+	<div id="top">
+		{{template "open-toolbar" "document"}}
+		<h3>{{.Filename}}</h3>
+	</div>
+	<form id="datafield" name="document" action="/document/{{.Filename}}" method="post">
+		<input type="hidden" name="filename" value="{{.Filename}}">
+		<textarea name="text">{{.Data}}</textarea>
+	</form>
+{{end}}

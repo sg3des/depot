@@ -1,0 +1,6 @@
+{{define "list-toolbar"}}
+	<div class="toolbar z1">
+		<div class="btn"><form id="upload" method="post" action="/upload" enctype="multipart/form-data"><input name="file" type="file" onchange="upload.submit()"></form>Upload</div>
+	</div>
+	<div class="message" id="message"></div>
+{{end}}
